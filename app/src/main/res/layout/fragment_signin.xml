@@ -24,7 +24,6 @@
         android:background="@drawable/shape_rectangle_outline_8_020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:hint="Type your email address"/>
 
     <TextView
@@ -41,9 +40,11 @@
         android:background="@drawable/shape_rectangle_outline_8_020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         android:hint="Type your password"/>
 
     <Button
+        android:id="@+id/btnSignin"
         android:text="Sign In"
         android:textAllCaps="false"
         style="@style/Button.Primary"
@@ -52,6 +53,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btnSignup"
         style="@style/Button.Secondary"
         android:text="Create New Account"
         android:layout_marginTop="12dp"
